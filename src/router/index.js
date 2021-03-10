@@ -17,7 +17,7 @@ const router = new VueRouter({
 router.beforeEach((to, from, next) => {
   // to代表将要访问的路径
   // from代表从哪里来
-  // next()代表放行 next('/login')
+  // next()代表放行  next('/login')
   if (to.path === '/login') return next()
   const tokenStr = window.sessionStorage.getItem('token')
   if (!tokenStr) return next('/login')

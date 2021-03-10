@@ -10,7 +10,9 @@ export default {
   data () {
     return {}
   },
-  components: {},
+  components: {
+
+  },
   methods: {
     logout () {
       window.sessionStorage.clear()
