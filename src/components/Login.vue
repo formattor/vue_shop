@@ -49,7 +49,7 @@ export default {
   },
   methods: {
     resetLoginForm () {
-      console.log(this)
+      // console.log(this)
       this.$refs.loginFormRef.resetFields()
       this.loginForm.username = ''
       this.loginForm.password = ''
@@ -57,7 +57,7 @@ export default {
     login () {
       this.$refs.loginFormRef.validate(async (valid) => {
         // 自校验
-        console.log(valid, '')
+        // console.log(valid, '')
         // const result = await this.$http.post('login', this.loginForm)
         // console.log(result, '')
         // 解构出data
@@ -65,7 +65,7 @@ export default {
         // console.log(res, '')
         if (res.meta.status !== 200) return this.$message.error('登陆失败')
         this.$message.success('登录成功')
-        console.log(res, '')
+        // console.log(res, '获取登录信息')
         window.sessionStorage.setItem('token', res.data.token)
         this.$router.push('/home')
       })
