@@ -40,7 +40,7 @@
             <el-table-column label="状态">
               <!-- 作用域插槽 -->
               <template slot-scope="scope">
-                {{scope.row.mg_state}}
+                <!-- {{scope.row.mg_state}} -->
                 <el-switch
                   v-model="scope.row.mg_state"
                   @change="userStateChanged(scope.row)">
