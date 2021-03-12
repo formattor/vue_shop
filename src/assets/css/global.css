@@ -5,6 +5,9 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
+  /* 全局最小宽度 */
+  /* min-width: 1366px; */
+  min-width: 1000px;
 }
 
 .el-breadcrumb{
@@ -25,3 +28,4 @@ body,
   margin-top: 15px;
   text-align: center;
 }
+
