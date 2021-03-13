@@ -28,4 +28,11 @@ body,
   margin-top: 15px;
   text-align: center;
 }
-
+/* 解决cascader级联样式表超出屏幕的问题*/
+.el-cascader-panel {
+  height: 210px;
+}
+/* 隐藏横向滚动条 */
+.el-scrollbar__wrap {
+  overflow-x: hidden;
+}
