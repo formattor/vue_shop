@@ -6,7 +6,7 @@ import {
   Breadcrumb, BreadcrumbItem, Card, Row, Col,
   Table, TableColumn, Switch, Tooltip, Pagination, Dialog,
   MessageBox, Tag, Tree, Select, Option,
-  Cascader
+  Cascader, Tabs, TabPane
 } from 'element-ui'
 
 Vue.use(Button)
@@ -43,6 +43,8 @@ Vue.use(Select)
 Vue.use(Option)
 
 Vue.use(Cascader)
+Vue.use(Tabs)
+Vue.use(TabPane)
 
 // 全局挂在到vue的原型对象上
 Vue.prototype.$message = Message
