@@ -7,7 +7,7 @@ import {
   Table, TableColumn, Switch, Tooltip, Pagination, Dialog,
   MessageBox, Tag, Tree, Select, Option,
   Cascader, Tabs, TabPane, Step, Steps,
-  Checkbox, CheckboxGroup, Upload
+  Checkbox, CheckboxGroup, Upload, Timeline, TimelineItem
 } from 'element-ui'
 
 Vue.use(Button)
@@ -52,6 +52,8 @@ Vue.use(Steps)
 Vue.use(Checkbox)
 Vue.use(CheckboxGroup)
 Vue.use(Upload)
+Vue.use(Timeline)
+Vue.use(TimelineItem)
 
 // 全局挂在到vue的原型对象上
 Vue.prototype.$message = Message
