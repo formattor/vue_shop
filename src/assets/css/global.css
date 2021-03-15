@@ -36,3 +36,13 @@ body,
 .el-scrollbar__wrap {
   overflow-x: hidden;
 }
+/* 进度条 */
+.el-steps {
+  margin: 15px 0;
+}
+.el-step__title {
+  font-size: 13px;
+}
+.ql-editor{
+  min-height: 250px;
+}
